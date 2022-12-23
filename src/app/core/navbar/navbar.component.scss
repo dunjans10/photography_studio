@@ -1,0 +1,57 @@
+
+mat-toolbar{
+  background-color: #8A6E74;
+  color: white;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  text-transform: uppercase;
+
+}
+
+.section_1 {
+ width: 40%;
+ display: flex;
+ justify-content: space-around;
+
+}
+
+.section_2 {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  text-align: center;
+}
+
+img{
+  width: 20%;
+  height: 100%;
+}
+
+#reservedPhotoSession{
+  border: 1px solid #d9a872;
+  padding: 0 15px;
+  background-color: #d9a872;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#homePage {
+  text-decoration: underline;
+  color: #d9a872;
+  cursor: pointer;
+
+}
+
+.nav_tab:hover{
+  text-decoration: underline;
+  color: #d9a872;
+  cursor: pointer;
+}
+
+
