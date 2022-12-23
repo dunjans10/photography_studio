@@ -1,27 +1,29 @@
+$main-color:#BFA790;
+$primary-color:#8A6E74;
+$white-color:white;
+
 .container {
   display:flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
-  height: 100vh;
-  background-color: #BFA790;
+  background-color: $main-color;
 }
 
 .disp_left {
-  background-color: #BFA790;
+  background-color: $main-color;
   width: 50%;
 }
 
 h2{
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: $white-color;
   font-size: 46px;
-  padding: 20px;
-  padding-top: 100px;
 }
 
  p{
-  color: white;
+  color: $white-color;
   text-transform: uppercase;
   text-align: center;
  }
@@ -31,7 +33,6 @@ h2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
   padding-top: 100px;
  }
 
@@ -40,15 +41,15 @@ h2{
  }
 
  button {
-  color: #BFA790;
-  border: 1px solid #8A6E74;
+  color: $main-color;
+  border: 1px solid $primary-color;
  }
 
  .links {
 
-    background-color: #BFA790;
-    color: white;
-    padding: 40px;
+    background-color: $main-color;
+    color: $white-color;
+    padding: 69px;
     text-transform: uppercase;
     cursor: pointer;
  }
@@ -56,18 +57,19 @@ h2{
  mat-toolbar {
   display: flex;
   justify-content: space-around;
-  background-color: #BFA790;
-  color: white;
+  background-color:$main-color;
+  color: $white-color;
  }
 
  span {
-  border: 1px solid #8A6E74;
+  border: 1px solid $primary-color;
   padding: 10px;
   border-radius: 10px;
+  font-size: 18px;
 
   &:hover{
-    background-color: white;
-    color: #8A6E74;
+    background-color: $white-color;
+    color: $primary-color;
   }
  }
 

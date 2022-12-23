@@ -1,18 +1,15 @@
 
-  <mat-toolbar class="container">
-    <div class="section_1">
-    <span id="homePage" [routerLink]="['/']">Pocetna</span>
-    <span class="nav_tab" [routerLink]="['about-us']">Nas Tim</span>
-    <span class="nav_tab" [routerLink]="['galery']">Galerija</span>
-    <span class="nav_tab" [routerLink]="['studio']">Studio</span>
-  </div>
+  <nav mat-tab-nav-bar class="container">
+    <a mat-tab-link id="homePage" routerLink="" [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active-link">Pocetna</a>
+    <a mat-tab-link class="nav_tab"  routerLink="about-us" routerLinkActive="active-link">Nas Tim</a>
+    <a mat-tab-link class="nav_tab"  routerLink="galery" routerLinkActive="active-link">Galerija</a>
+    <a mat-tab-link class="nav_tab"  routerLink="studio" routerLinkActive="active-link">Studio</a>
     <span class="image">
       <img src="../../assets/images/logo.png" alt="logo"/>
     </span>
-    <div class="section_2">
-    <span class="nav_tab" [routerLink]="['prices']">Cenovnik</span>
-    <span class="nav_tab" [routerLink]="['actual']">Aktuelno</span>
-    <span id="reservedPhotoSession" [routerLink]="['appointments']">Zakazivanje</span>
-  </div>
-  </mat-toolbar>
+    <a mat-tab-link class="nav_tab"  routerLink="prices" routerLinkActive="active-link">Cenovnik</a>
+    <a mat-tab-link class="nav_tab"  routerLink="actual-events" routerLinkActive="active-link">Aktuelno</a>
+    <a mat-tab-link id="reservedPhotoSession" routerLink="appointments">Zakazivanje</a>
+ </nav>
+
 
